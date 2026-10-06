@@ -1,0 +1,8 @@
+torch
+# Optional - only needed for GPU acceleration on Windows with an AMD/Intel
+# GPU (AMD doesn't support CUDA). Skip this if you're on CPU only, or if
+# you have an NVIDIA GPU (regular torch + CUDA handles that already).
+# torch-directml
+SpeechRecognition
+pyttsx3
+pyaudio

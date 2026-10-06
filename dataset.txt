@@ -1,0 +1,2780 @@
+KRB: 0 + 9
+VECTOR: 9
+
+KRB: 1 + 7
+VECTOR: 8
+
+KRB: tell me about aryabhata
+VECTOR: A mathematician
+
+KRB: 4 * 8
+VECTOR: 32
+
+KRB: tell me about blackvault
+VECTOR: An encryption vault
+
+KRB: 10 - 6
+VECTOR: 4
+
+KRB: 5 + 2
+VECTOR: 7
+
+KRB: 3 - 3
+VECTOR: 0
+
+KRB: 0 + 2
+VECTOR: 2
+
+KRB: 5 * 9
+VECTOR: 45
+
+KRB: 8 + 0
+VECTOR: 8
+
+KRB: 11 - 11
+VECTOR: 0
+
+KRB: how are you
+VECTOR: I am fine
+
+KRB: 6 * 0
+VECTOR: 0
+
+KRB: what are you
+VECTOR: I am an AI assistant
+
+KRB: tell me about kalpana chawla
+VECTOR: An astronaut
+
+KRB: what is your favorite food
+VECTOR: Sattu and roti
+
+KRB: 3 * 9
+VECTOR: 27
+
+KRB: good morning vector
+VECTOR: Good morning Krishna
+
+KRB: 7 * 0
+VECTOR: 0
+
+KRB: 10 + 11
+VECTOR: 21
+
+KRB: who created you
+VECTOR: Krishna made me
+
+KRB: 11 - 10
+VECTOR: 1
+
+KRB: what is blackvault
+VECTOR: An encryption vault
+
+KRB: what library do you use for ml
+VECTOR: Scikit-Learn
+
+KRB: 0 + 7
+VECTOR: 7
+
+KRB: 9 - 7
+VECTOR: 2
+
+KRB: 10 + 4
+VECTOR: 14
+
+KRB: 9 + 5
+VECTOR: 14
+
+KRB: 12 - 2
+VECTOR: 10
+
+KRB: tell me about krishna
+VECTOR: Krishna is a developer
+
+KRB: what library do you use for ml
+VECTOR: Scikit-Learn
+
+KRB: 6 + 5
+VECTOR: 11
+
+KRB: 4 - 4
+VECTOR: 0
+
+KRB: 7 * 2
+VECTOR: 14
+
+KRB: 2 - 0
+VECTOR: 2
+
+KRB: tell me about chandrayaan
+VECTOR: An ISRO mission
+
+KRB: 0 + 12
+VECTOR: 12
+
+KRB: 9 - 9
+VECTOR: 0
+
+KRB: 3 * 0
+VECTOR: 0
+
+KRB: who is aryabhata
+VECTOR: A mathematician
+
+KRB: 12 + 11
+VECTOR: 23
+
+KRB: what is your name
+VECTOR: My name is Vector
+
+KRB: 2 - 1
+VECTOR: 1
+
+KRB: 12 - 3
+VECTOR: 9
+
+KRB: 12 - 12
+VECTOR: 0
+
+KRB: tell me about krishna
+VECTOR: Krishna is a developer
+
+KRB: 5 + 3
+VECTOR: 8
+
+KRB: 8 + 2
+VECTOR: 10
+
+KRB: 3 + 0
+VECTOR: 3
+
+KRB: 4 + 10
+VECTOR: 14
+
+KRB: 2 * 6
+VECTOR: 12
+
+KRB: 3 * 9
+VECTOR: 27
+
+KRB: 10 - 8
+VECTOR: 2
+
+KRB: 10 - 6
+VECTOR: 4
+
+KRB: 5 - 2
+VECTOR: 3
+
+KRB: 8 + 8
+VECTOR: 16
+
+KRB: do you like dahi
+VECTOR: Yes I do
+
+KRB: 3 + 1
+VECTOR: 4
+
+KRB: 8 - 4
+VECTOR: 4
+
+KRB: 7 * 0
+VECTOR: 0
+
+KRB: 9 * 2
+VECTOR: 18
+
+KRB: 7 + 8
+VECTOR: 15
+
+KRB: 4 + 1
+VECTOR: 5
+
+KRB: what database do you use
+VECTOR: PostgreSQL
+
+KRB: 6 + 2
+VECTOR: 8
+
+KRB: 3 * 5
+VECTOR: 15
+
+KRB: are you online
+VECTOR: Yes I am online
+
+KRB: 6 + 9
+VECTOR: 15
+
+KRB: 2 * 3
+VECTOR: 6
+
+KRB: say hello
+VECTOR: Hello Krishna
+
+KRB: 0 + 9
+VECTOR: 9
+
+KRB: 6 - 4
+VECTOR: 2
+
+KRB: 9 - 3
+VECTOR: 6
+
+KRB: who is krishna
+VECTOR: Krishna is a developer
+
+KRB: what exactly are you
+VECTOR: I am an AI assistant
+
+KRB: 12 + 3
+VECTOR: 15
+
+KRB: what do you do
+VECTOR: I can talk and help
+
+KRB: 9 - 6
+VECTOR: 3
+
+KRB: tell me about blackvault
+VECTOR: An encryption vault
+
+KRB: 11 - 3
+VECTOR: 8
+
+KRB: 7 + 7
+VECTOR: 14
+
+KRB: 8 + 0
+VECTOR: 8
+
+KRB: 10 + 7
+VECTOR: 17
+
+KRB: 1 + 4
+VECTOR: 5
+
+KRB: tell me about gitsetlive
+VECTOR: A GitHub AI agent
+
+KRB: 4 * 9
+VECTOR: 36
+
+KRB: 10 - 7
+VECTOR: 3
+
+KRB: 2 + 10
+VECTOR: 12
+
+KRB: 10 - 8
+VECTOR: 2
+
+KRB: 10 + 7
+VECTOR: 17
+
+KRB: 2 + 5
+VECTOR: 7
+
+KRB: 5 - 0
+VECTOR: 5
+
+KRB: 9 * 4
+VECTOR: 36
+
+KRB: 7 + 8
+VECTOR: 15
+
+KRB: 3 * 3
+VECTOR: 9
+
+KRB: 4 * 2
+VECTOR: 8
+
+KRB: 8 * 5
+VECTOR: 40
+
+KRB: 10 + 3
+VECTOR: 13
+
+KRB: are you an ai
+VECTOR: Yes I am
+
+KRB: do you like dahi
+VECTOR: Yes I do
+
+KRB: 4 + 7
+VECTOR: 11
+
+KRB: 1 * 3
+VECTOR: 3
+
+KRB: who is krishna
+VECTOR: Krishna is a developer
+
+KRB: 3 * 6
+VECTOR: 18
+
+KRB: hello
+VECTOR: Hi Krishna
+
+KRB: 4 * 0
+VECTOR: 0
+
+KRB: who is kalpana chawla
+VECTOR: An astronaut
+
+KRB: 4 + 12
+VECTOR: 16
+
+KRB: 5 - 5
+VECTOR: 0
+
+KRB: 6 - 1
+VECTOR: 5
+
+KRB: 0 + 6
+VECTOR: 6
+
+KRB: what is your favorite food
+VECTOR: Sattu and roti
+
+KRB: 6 + 11
+VECTOR: 17
+
+KRB: 11 - 3
+VECTOR: 8
+
+KRB: 5 * 3
+VECTOR: 15
+
+KRB: what does krishna do
+VECTOR: Krishna builds AI projects
+
+KRB: hello
+VECTOR: Hi Krishna
+
+KRB: thank you very much
+VECTOR: You are welcome
+
+KRB: 2 * 1
+VECTOR: 2
+
+KRB: 12 + 3
+VECTOR: 15
+
+KRB: 1 + 11
+VECTOR: 12
+
+KRB: what is your name project
+VECTOR: Vector
+
+KRB: 4 * 4
+VECTOR: 16
+
+KRB: 7 + 4
+VECTOR: 11
+
+KRB: 12 - 2
+VECTOR: 10
+
+KRB: tell me who you are
+VECTOR: I am Vector
+
+KRB: 9 + 6
+VECTOR: 15
+
+KRB: are you a robot
+VECTOR: I am an AI
+
+KRB: 7 - 2
+VECTOR: 5
+
+KRB: good night vector
+VECTOR: Good night Krishna
+
+KRB: who is aryabhata
+VECTOR: A mathematician
+
+KRB: 0 + 8
+VECTOR: 8
+
+KRB: 9 + 4
+VECTOR: 13
+
+KRB: who built you
+VECTOR: Krishna made me
+
+KRB: what does krishna work on
+VECTOR: Krishna builds AI projects
+
+KRB: 5 + 10
+VECTOR: 15
+
+KRB: 9 * 7
+VECTOR: 63
+
+KRB: are you working
+VECTOR: Yes I am online
+
+KRB: 1 * 0
+VECTOR: 0
+
+KRB: 10 + 5
+VECTOR: 15
+
+KRB: what is chandrayaan
+VECTOR: An ISRO mission
+
+KRB: 5 + 12
+VECTOR: 17
+
+KRB: 2 * 2
+VECTOR: 4
+
+KRB: 12 + 2
+VECTOR: 14
+
+KRB: 2 * 1
+VECTOR: 2
+
+KRB: 5 * 5
+VECTOR: 25
+
+KRB: 2 + 1
+VECTOR: 3
+
+KRB: 0 + 7
+VECTOR: 7
+
+KRB: 10 - 2
+VECTOR: 8
+
+KRB: 7 * 3
+VECTOR: 21
+
+KRB: 2 + 10
+VECTOR: 12
+
+KRB: 10 + 0
+VECTOR: 10
+
+KRB: 10 - 2
+VECTOR: 8
+
+KRB: 5 * 2
+VECTOR: 10
+
+KRB: what operating system do you like
+VECTOR: Kali Linux
+
+KRB: 6 + 12
+VECTOR: 18
+
+KRB: 9 - 5
+VECTOR: 4
+
+KRB: 4 - 2
+VECTOR: 2
+
+KRB: 1 + 7
+VECTOR: 8
+
+KRB: 5 + 5
+VECTOR: 10
+
+KRB: 5 + 6
+VECTOR: 11
+
+KRB: 2 + 5
+VECTOR: 7
+
+KRB: 5 + 4
+VECTOR: 9
+
+KRB: 4 * 1
+VECTOR: 4
+
+KRB: 3 + 5
+VECTOR: 8
+
+KRB: what is chandrayaan
+VECTOR: An ISRO mission
+
+KRB: where is krishna from
+VECTOR: Krishna is from Asansol
+
+KRB: 9 + 1
+VECTOR: 10
+
+KRB: 2 + 6
+VECTOR: 8
+
+KRB: can you tell me your name
+VECTOR: My name is Vector
+
+KRB: 7 + 3
+VECTOR: 10
+
+KRB: 4 - 1
+VECTOR: 3
+
+KRB: 12 + 2
+VECTOR: 14
+
+KRB: 3 + 7
+VECTOR: 10
+
+KRB: what is blackvault
+VECTOR: An encryption vault
+
+KRB: 4 - 3
+VECTOR: 1
+
+KRB: 2 + 3
+VECTOR: 5
+
+KRB: 8 - 1
+VECTOR: 7
+
+KRB: good morning
+VECTOR: Good morning Krishna
+
+KRB: 12 - 5
+VECTOR: 7
+
+KRB: 7 * 7
+VECTOR: 49
+
+KRB: who is your creator
+VECTOR: Krishna made me
+
+KRB: 11 + 5
+VECTOR: 16
+
+KRB: 0 * 5
+VECTOR: 0
+
+KRB: 5 + 12
+VECTOR: 17
+
+KRB: what language do you use
+VECTOR: Python
+
+KRB: 7 * 2
+VECTOR: 14
+
+KRB: 0 * 1
+VECTOR: 0
+
+KRB: 9 - 0
+VECTOR: 9
+
+KRB: 9 * 6
+VECTOR: 54
+
+KRB: 12 + 10
+VECTOR: 22
+
+KRB: 1 + 11
+VECTOR: 12
+
+KRB: 9 + 12
+VECTOR: 21
+
+KRB: what's your name
+VECTOR: My name is Vector
+
+KRB: 10 + 6
+VECTOR: 16
+
+KRB: 12 - 9
+VECTOR: 3
+
+KRB: 4 * 3
+VECTOR: 12
+
+KRB: 8 * 8
+VECTOR: 64
+
+KRB: 7 * 6
+VECTOR: 42
+
+KRB: good night
+VECTOR: Good night Krishna
+
+KRB: 8 + 3
+VECTOR: 11
+
+KRB: 6 + 10
+VECTOR: 16
+
+KRB: thanks
+VECTOR: You are welcome
+
+KRB: who are you exactly
+VECTOR: I am Vector
+
+KRB: 5 * 6
+VECTOR: 30
+
+KRB: tell me who you are
+VECTOR: I am Vector
+
+KRB: 4 * 3
+VECTOR: 12
+
+KRB: 5 - 4
+VECTOR: 1
+
+KRB: 0 + 0
+VECTOR: 0
+
+KRB: do you like dahi
+VECTOR: Yes I do
+
+KRB: 1 * 1
+VECTOR: 1
+
+KRB: what is gitsetlive
+VECTOR: A GitHub AI agent
+
+KRB: 5 + 9
+VECTOR: 14
+
+KRB: 6 + 0
+VECTOR: 6
+
+KRB: 9 + 2
+VECTOR: 11
+
+KRB: who are you
+VECTOR: I am Vector
+
+KRB: 7 * 7
+VECTOR: 49
+
+KRB: 5 + 7
+VECTOR: 12
+
+KRB: 5 + 11
+VECTOR: 16
+
+KRB: 3 * 8
+VECTOR: 24
+
+KRB: 4 * 2
+VECTOR: 8
+
+KRB: 0 + 2
+VECTOR: 2
+
+KRB: 6 + 3
+VECTOR: 9
+
+KRB: 6 - 3
+VECTOR: 3
+
+KRB: 5 + 6
+VECTOR: 11
+
+KRB: 1 - 1
+VECTOR: 0
+
+KRB: hey
+VECTOR: Hello there
+
+KRB: tell me about gitsetlive
+VECTOR: A GitHub AI agent
+
+KRB: 11 + 4
+VECTOR: 15
+
+KRB: 10 - 3
+VECTOR: 7
+
+KRB: 3 - 1
+VECTOR: 2
+
+KRB: 1 + 10
+VECTOR: 11
+
+KRB: what is your favorite os
+VECTOR: Kali Linux
+
+KRB: 9 * 9
+VECTOR: 81
+
+KRB: 7 * 8
+VECTOR: 56
+
+KRB: good night
+VECTOR: Good night Krishna
+
+KRB: 2 + 4
+VECTOR: 6
+
+KRB: do you like paneer
+VECTOR: Yes very much
+
+KRB: 8 * 2
+VECTOR: 16
+
+KRB: who are you exactly
+VECTOR: I am Vector
+
+KRB: 5 + 1
+VECTOR: 6
+
+KRB: what machine learning library is this
+VECTOR: Scikit-Learn
+
+KRB: 0 * 7
+VECTOR: 0
+
+KRB: 2 + 6
+VECTOR: 8
+
+KRB: 6 + 4
+VECTOR: 10
+
+KRB: 12 + 7
+VECTOR: 19
+
+KRB: 12 + 0
+VECTOR: 12
+
+KRB: 10 + 3
+VECTOR: 13
+
+KRB: 9 - 4
+VECTOR: 5
+
+KRB: 9 - 4
+VECTOR: 5
+
+KRB: 7 * 9
+VECTOR: 63
+
+KRB: 4 * 0
+VECTOR: 0
+
+KRB: hi
+VECTOR: Hello there
+
+KRB: 1 + 8
+VECTOR: 9
+
+KRB: 4 - 4
+VECTOR: 0
+
+KRB: what are you
+VECTOR: I am an AI assistant
+
+KRB: 8 - 6
+VECTOR: 2
+
+KRB: 2 + 2
+VECTOR: 4
+
+KRB: 10 + 9
+VECTOR: 19
+
+KRB: 7 + 0
+VECTOR: 7
+
+KRB: 10 + 10
+VECTOR: 20
+
+KRB: 2 + 0
+VECTOR: 2
+
+KRB: 11 - 6
+VECTOR: 5
+
+KRB: where does krishna live
+VECTOR: Krishna is from Asansol
+
+KRB: 8 + 1
+VECTOR: 9
+
+KRB: can you tell me your name
+VECTOR: My name is Vector
+
+KRB: tell me about gitsetlive
+VECTOR: A GitHub AI agent
+
+KRB: 6 * 3
+VECTOR: 18
+
+KRB: 7 + 9
+VECTOR: 16
+
+KRB: 5 + 2
+VECTOR: 7
+
+KRB: 6 * 5
+VECTOR: 30
+
+KRB: 6 + 1
+VECTOR: 7
+
+KRB: 0 * 8
+VECTOR: 0
+
+KRB: 4 * 8
+VECTOR: 32
+
+KRB: 5 * 0
+VECTOR: 0
+
+KRB: 0 * 4
+VECTOR: 0
+
+KRB: how are you doing
+VECTOR: I am fine
+
+KRB: 8 * 4
+VECTOR: 32
+
+KRB: 7 - 4
+VECTOR: 3
+
+KRB: 2 + 9
+VECTOR: 11
+
+KRB: 5 - 4
+VECTOR: 1
+
+KRB: 5 - 3
+VECTOR: 2
+
+KRB: 4 - 3
+VECTOR: 1
+
+KRB: who made you
+VECTOR: Krishna made me
+
+KRB: 7 + 0
+VECTOR: 7
+
+KRB: 0 - 0
+VECTOR: 0
+
+KRB: good morning vector
+VECTOR: Good morning Krishna
+
+KRB: 11 - 5
+VECTOR: 6
+
+KRB: 5 * 7
+VECTOR: 35
+
+KRB: 9 + 4
+VECTOR: 13
+
+KRB: what are you
+VECTOR: I am an AI assistant
+
+KRB: where does krishna live
+VECTOR: Krishna is from Asansol
+
+KRB: 1 + 3
+VECTOR: 4
+
+KRB: 12 - 1
+VECTOR: 11
+
+KRB: 5 + 4
+VECTOR: 9
+
+KRB: 1 + 3
+VECTOR: 4
+
+KRB: which programming language is this
+VECTOR: Python
+
+KRB: 2 * 8
+VECTOR: 16
+
+KRB: who runs isro
+VECTOR: India
+
+KRB: 0 * 4
+VECTOR: 0
+
+KRB: 2 + 4
+VECTOR: 6
+
+KRB: 6 * 8
+VECTOR: 48
+
+KRB: 9 - 5
+VECTOR: 4
+
+KRB: 5 * 9
+VECTOR: 45
+
+KRB: good night vector
+VECTOR: Good night Krishna
+
+KRB: 8 - 5
+VECTOR: 3
+
+KRB: 1 * 4
+VECTOR: 4
+
+KRB: 5 - 3
+VECTOR: 2
+
+KRB: 7 + 2
+VECTOR: 9
+
+KRB: 12 + 9
+VECTOR: 21
+
+KRB: 0 + 8
+VECTOR: 8
+
+KRB: 10 - 10
+VECTOR: 0
+
+KRB: 12 + 12
+VECTOR: 24
+
+KRB: what language do you use
+VECTOR: Python
+
+KRB: 6 - 5
+VECTOR: 1
+
+KRB: 4 - 0
+VECTOR: 4
+
+KRB: 1 * 9
+VECTOR: 9
+
+KRB: good morning vector
+VECTOR: Good morning Krishna
+
+KRB: 8 * 1
+VECTOR: 8
+
+KRB: 4 * 7
+VECTOR: 28
+
+KRB: 5 + 0
+VECTOR: 5
+
+KRB: which database is this
+VECTOR: PostgreSQL
+
+KRB: are you working
+VECTOR: Yes I am online
+
+KRB: 12 - 11
+VECTOR: 1
+
+KRB: 8 + 10
+VECTOR: 18
+
+KRB: 3 - 2
+VECTOR: 1
+
+KRB: who is rakesh sharma
+VECTOR: An astronaut
+
+KRB: 1 * 3
+VECTOR: 3
+
+KRB: 11 - 7
+VECTOR: 4
+
+KRB: 5 + 8
+VECTOR: 13
+
+KRB: 9 + 12
+VECTOR: 21
+
+KRB: 11 - 1
+VECTOR: 10
+
+KRB: 12 + 1
+VECTOR: 13
+
+KRB: 1 * 5
+VECTOR: 5
+
+KRB: 0 * 6
+VECTOR: 0
+
+KRB: how are you
+VECTOR: I am fine
+
+KRB: 9 * 2
+VECTOR: 18
+
+KRB: 7 - 0
+VECTOR: 7
+
+KRB: 0 + 11
+VECTOR: 11
+
+KRB: 7 + 11
+VECTOR: 18
+
+KRB: what were you built with
+VECTOR: PyTorch and Python
+
+KRB: who made you
+VECTOR: Krishna made me
+
+KRB: 8 + 1
+VECTOR: 9
+
+KRB: 1 * 4
+VECTOR: 4
+
+KRB: hi
+VECTOR: Hello there
+
+KRB: 9 * 4
+VECTOR: 36
+
+KRB: 2 * 3
+VECTOR: 6
+
+KRB: 0 + 3
+VECTOR: 3
+
+KRB: 12 + 8
+VECTOR: 20
+
+KRB: 8 - 8
+VECTOR: 0
+
+KRB: 10 - 1
+VECTOR: 9
+
+KRB: 7 - 2
+VECTOR: 5
+
+KRB: who is krishna
+VECTOR: Krishna is a developer
+
+KRB: 2 + 7
+VECTOR: 9
+
+KRB: where does krishna live
+VECTOR: Krishna is from Asansol
+
+KRB: 12 + 10
+VECTOR: 22
+
+KRB: 4 + 10
+VECTOR: 14
+
+KRB: 11 - 8
+VECTOR: 3
+
+KRB: what is your favorite os
+VECTOR: Kali Linux
+
+KRB: 3 + 0
+VECTOR: 3
+
+KRB: 8 * 7
+VECTOR: 56
+
+KRB: who built you
+VECTOR: Krishna made me
+
+KRB: 9 * 5
+VECTOR: 45
+
+KRB: 1 - 1
+VECTOR: 0
+
+KRB: 9 - 8
+VECTOR: 1
+
+KRB: what is gitsetlive
+VECTOR: A GitHub AI agent
+
+KRB: 6 + 6
+VECTOR: 12
+
+KRB: 2 * 2
+VECTOR: 4
+
+KRB: what is your name
+VECTOR: My name is Vector
+
+KRB: 12 + 6
+VECTOR: 18
+
+KRB: 9 - 3
+VECTOR: 6
+
+KRB: what framework is this
+VECTOR: PyTorch
+
+KRB: 5 - 5
+VECTOR: 0
+
+KRB: 8 + 2
+VECTOR: 10
+
+KRB: 3 * 7
+VECTOR: 21
+
+KRB: 11 + 8
+VECTOR: 19
+
+KRB: 6 * 2
+VECTOR: 12
+
+KRB: 4 - 2
+VECTOR: 2
+
+KRB: 7 + 2
+VECTOR: 9
+
+KRB: 11 - 10
+VECTOR: 1
+
+KRB: 9 - 6
+VECTOR: 3
+
+KRB: what is vector built with
+VECTOR: PyTorch and Python
+
+KRB: 3 * 6
+VECTOR: 18
+
+KRB: what database do you use
+VECTOR: PostgreSQL
+
+KRB: 8 + 7
+VECTOR: 15
+
+KRB: 9 * 3
+VECTOR: 27
+
+KRB: 0 * 7
+VECTOR: 0
+
+KRB: 3 + 5
+VECTOR: 8
+
+KRB: 0 * 1
+VECTOR: 0
+
+KRB: who is aryabhata
+VECTOR: A mathematician
+
+KRB: 2 * 4
+VECTOR: 8
+
+KRB: 9 + 5
+VECTOR: 14
+
+KRB: what do you do
+VECTOR: I can talk and help
+
+KRB: 4 * 5
+VECTOR: 20
+
+KRB: 4 + 4
+VECTOR: 8
+
+KRB: 0 + 12
+VECTOR: 12
+
+KRB: 1 + 0
+VECTOR: 1
+
+KRB: who are you exactly
+VECTOR: I am Vector
+
+KRB: 0 * 0
+VECTOR: 0
+
+KRB: 5 + 5
+VECTOR: 10
+
+KRB: 6 - 2
+VECTOR: 4
+
+KRB: which database is this
+VECTOR: PostgreSQL
+
+KRB: 9 - 1
+VECTOR: 8
+
+KRB: 7 * 1
+VECTOR: 7
+
+KRB: 11 + 10
+VECTOR: 21
+
+KRB: 2 + 1
+VECTOR: 3
+
+KRB: 6 - 6
+VECTOR: 0
+
+KRB: 7 * 9
+VECTOR: 63
+
+KRB: 10 + 10
+VECTOR: 20
+
+KRB: 7 - 6
+VECTOR: 1
+
+KRB: 11 + 6
+VECTOR: 17
+
+KRB: 6 * 4
+VECTOR: 24
+
+KRB: 0 * 6
+VECTOR: 0
+
+KRB: 12 + 4
+VECTOR: 16
+
+KRB: thank you
+VECTOR: You are welcome
+
+KRB: 2 * 9
+VECTOR: 18
+
+KRB: thanks
+VECTOR: You are welcome
+
+KRB: 3 * 1
+VECTOR: 3
+
+KRB: 10 - 7
+VECTOR: 3
+
+KRB: 8 + 6
+VECTOR: 14
+
+KRB: 8 - 2
+VECTOR: 6
+
+KRB: 6 * 9
+VECTOR: 54
+
+KRB: what backend framework do you use
+VECTOR: FastAPI
+
+KRB: how are you feeling
+VECTOR: I am fine
+
+KRB: 12 - 0
+VECTOR: 12
+
+KRB: who runs isro
+VECTOR: India
+
+KRB: 8 - 3
+VECTOR: 5
+
+KRB: what framework is this
+VECTOR: PyTorch
+
+KRB: who is your creator
+VECTOR: Krishna made me
+
+KRB: 6 * 6
+VECTOR: 36
+
+KRB: what is your name project
+VECTOR: Vector
+
+KRB: who created you
+VECTOR: Krishna made me
+
+KRB: 5 * 4
+VECTOR: 20
+
+KRB: what is vector built with
+VECTOR: PyTorch and Python
+
+KRB: 9 + 10
+VECTOR: 19
+
+KRB: are you working
+VECTOR: Yes I am online
+
+KRB: 1 + 2
+VECTOR: 3
+
+KRB: 1 + 9
+VECTOR: 10
+
+KRB: 6 * 7
+VECTOR: 42
+
+KRB: 2 - 2
+VECTOR: 0
+
+KRB: 3 + 10
+VECTOR: 13
+
+KRB: hi
+VECTOR: Hello there
+
+KRB: 9 * 1
+VECTOR: 9
+
+KRB: 3 + 11
+VECTOR: 14
+
+KRB: 3 - 1
+VECTOR: 2
+
+KRB: 0 + 4
+VECTOR: 4
+
+KRB: what operating system do you like
+VECTOR: Kali Linux
+
+KRB: 6 - 3
+VECTOR: 3
+
+KRB: 0 + 11
+VECTOR: 11
+
+KRB: 4 + 1
+VECTOR: 5
+
+KRB: what exactly are you
+VECTOR: I am an AI assistant
+
+KRB: 5 * 8
+VECTOR: 40
+
+KRB: 12 + 0
+VECTOR: 12
+
+KRB: 6 - 2
+VECTOR: 4
+
+KRB: 5 + 1
+VECTOR: 6
+
+KRB: 4 * 9
+VECTOR: 36
+
+KRB: 6 * 2
+VECTOR: 12
+
+KRB: 11 + 9
+VECTOR: 20
+
+KRB: 8 - 2
+VECTOR: 6
+
+KRB: 7 - 0
+VECTOR: 7
+
+KRB: 5 * 3
+VECTOR: 15
+
+KRB: which country runs isro
+VECTOR: India
+
+KRB: 6 + 1
+VECTOR: 7
+
+KRB: 11 + 5
+VECTOR: 16
+
+KRB: 12 - 7
+VECTOR: 5
+
+KRB: 0 * 3
+VECTOR: 0
+
+KRB: who is kalpana chawla
+VECTOR: An astronaut
+
+KRB: 7 - 7
+VECTOR: 0
+
+KRB: 4 * 4
+VECTOR: 16
+
+KRB: 8 + 5
+VECTOR: 13
+
+KRB: 2 * 4
+VECTOR: 8
+
+KRB: 11 - 2
+VECTOR: 9
+
+KRB: 4 * 5
+VECTOR: 20
+
+KRB: tell me about kalpana chawla
+VECTOR: An astronaut
+
+KRB: tell me about blackvault
+VECTOR: An encryption vault
+
+KRB: 6 - 1
+VECTOR: 5
+
+KRB: 4 + 6
+VECTOR: 10
+
+KRB: are you an ai
+VECTOR: Yes I am
+
+KRB: what do you do
+VECTOR: I can talk and help
+
+KRB: 12 + 11
+VECTOR: 23
+
+KRB: 8 * 0
+VECTOR: 0
+
+KRB: 8 + 11
+VECTOR: 19
+
+KRB: 12 - 10
+VECTOR: 2
+
+KRB: 12 - 0
+VECTOR: 12
+
+KRB: tell me who you are
+VECTOR: I am Vector
+
+KRB: 1 * 2
+VECTOR: 2
+
+KRB: 4 + 2
+VECTOR: 6
+
+KRB: 11 + 12
+VECTOR: 23
+
+KRB: 1 - 0
+VECTOR: 1
+
+KRB: 4 + 12
+VECTOR: 16
+
+KRB: 7 * 5
+VECTOR: 35
+
+KRB: 11 + 12
+VECTOR: 23
+
+KRB: hey
+VECTOR: Hello there
+
+KRB: 1 + 0
+VECTOR: 1
+
+KRB: 9 * 6
+VECTOR: 54
+
+KRB: 12 + 6
+VECTOR: 18
+
+KRB: 10 + 1
+VECTOR: 11
+
+KRB: 0 + 0
+VECTOR: 0
+
+KRB: good night vector
+VECTOR: Good night Krishna
+
+KRB: who made you
+VECTOR: Krishna made me
+
+KRB: 8 - 6
+VECTOR: 2
+
+KRB: 11 - 4
+VECTOR: 7
+
+KRB: 0 + 6
+VECTOR: 6
+
+KRB: 4 + 8
+VECTOR: 12
+
+KRB: 11 + 7
+VECTOR: 18
+
+KRB: 1 + 5
+VECTOR: 6
+
+KRB: 11 + 3
+VECTOR: 14
+
+KRB: 7 * 4
+VECTOR: 28
+
+KRB: 3 + 6
+VECTOR: 9
+
+KRB: 9 - 9
+VECTOR: 0
+
+KRB: 1 - 0
+VECTOR: 1
+
+KRB: 12 - 4
+VECTOR: 8
+
+KRB: 5 + 0
+VECTOR: 5
+
+KRB: say hello
+VECTOR: Hello Krishna
+
+KRB: 11 - 7
+VECTOR: 4
+
+KRB: 8 + 5
+VECTOR: 13
+
+KRB: 1 * 6
+VECTOR: 6
+
+KRB: 12 + 8
+VECTOR: 20
+
+KRB: which country runs isro
+VECTOR: India
+
+KRB: 0 * 8
+VECTOR: 0
+
+KRB: 0 * 5
+VECTOR: 0
+
+KRB: 1 * 8
+VECTOR: 8
+
+KRB: 3 * 2
+VECTOR: 6
+
+KRB: 5 + 11
+VECTOR: 16
+
+KRB: 5 - 1
+VECTOR: 4
+
+KRB: 0 + 4
+VECTOR: 4
+
+KRB: 7 + 12
+VECTOR: 19
+
+KRB: 10 - 9
+VECTOR: 1
+
+KRB: 2 * 8
+VECTOR: 16
+
+KRB: 11 + 6
+VECTOR: 17
+
+KRB: 7 * 3
+VECTOR: 21
+
+KRB: 3 - 3
+VECTOR: 0
+
+KRB: 1 * 1
+VECTOR: 1
+
+KRB: 10 - 5
+VECTOR: 5
+
+KRB: 1 + 4
+VECTOR: 5
+
+KRB: 3 + 9
+VECTOR: 12
+
+KRB: how are you doing
+VECTOR: I am fine
+
+KRB: what is gitsetlive
+VECTOR: A GitHub AI agent
+
+KRB: 9 * 1
+VECTOR: 9
+
+KRB: 12 + 5
+VECTOR: 17
+
+KRB: 8 * 3
+VECTOR: 24
+
+KRB: what operating system do you like
+VECTOR: Kali Linux
+
+KRB: 4 + 3
+VECTOR: 7
+
+KRB: 4 * 6
+VECTOR: 24
+
+KRB: 7 - 4
+VECTOR: 3
+
+KRB: 6 + 12
+VECTOR: 18
+
+KRB: 8 + 6
+VECTOR: 14
+
+KRB: 10 + 8
+VECTOR: 18
+
+KRB: 2 * 7
+VECTOR: 14
+
+KRB: 9 - 0
+VECTOR: 9
+
+KRB: 7 + 1
+VECTOR: 8
+
+KRB: what were you built with
+VECTOR: PyTorch and Python
+
+KRB: what is your backend
+VECTOR: FastAPI
+
+KRB: 7 - 7
+VECTOR: 0
+
+KRB: 1 * 0
+VECTOR: 0
+
+KRB: 11 + 11
+VECTOR: 22
+
+KRB: 9 + 0
+VECTOR: 9
+
+KRB: 9 * 7
+VECTOR: 63
+
+KRB: 0 - 0
+VECTOR: 0
+
+KRB: 12 - 9
+VECTOR: 3
+
+KRB: what machine learning library is this
+VECTOR: Scikit-Learn
+
+KRB: 12 + 5
+VECTOR: 17
+
+KRB: 0 * 3
+VECTOR: 0
+
+KRB: what backend framework do you use
+VECTOR: FastAPI
+
+KRB: 7 + 6
+VECTOR: 13
+
+KRB: 1 * 7
+VECTOR: 7
+
+KRB: 7 - 3
+VECTOR: 4
+
+KRB: what is blackvault
+VECTOR: An encryption vault
+
+KRB: 11 + 11
+VECTOR: 22
+
+KRB: 5 - 1
+VECTOR: 4
+
+KRB: 10 - 3
+VECTOR: 7
+
+KRB: 10 + 5
+VECTOR: 15
+
+KRB: 8 * 0
+VECTOR: 0
+
+KRB: 11 + 1
+VECTOR: 12
+
+KRB: 8 * 2
+VECTOR: 16
+
+KRB: 1 + 9
+VECTOR: 10
+
+KRB: which country runs isro
+VECTOR: India
+
+KRB: 3 + 9
+VECTOR: 12
+
+KRB: 9 * 0
+VECTOR: 0
+
+KRB: 0 * 0
+VECTOR: 0
+
+KRB: 1 + 5
+VECTOR: 6
+
+KRB: who are you
+VECTOR: I am Vector
+
+KRB: 10 + 4
+VECTOR: 14
+
+KRB: 6 * 5
+VECTOR: 30
+
+KRB: which programming language is this
+VECTOR: Python
+
+KRB: 12 - 5
+VECTOR: 7
+
+KRB: 9 + 7
+VECTOR: 16
+
+KRB: 7 + 5
+VECTOR: 12
+
+KRB: thanks
+VECTOR: You are welcome
+
+KRB: 2 * 0
+VECTOR: 0
+
+KRB: are you an ai
+VECTOR: Yes I am
+
+KRB: 12 - 6
+VECTOR: 6
+
+KRB: 10 + 12
+VECTOR: 22
+
+KRB: 12 + 4
+VECTOR: 16
+
+KRB: 12 + 1
+VECTOR: 13
+
+KRB: 6 * 4
+VECTOR: 24
+
+KRB: 2 * 0
+VECTOR: 0
+
+KRB: what machine learning library is this
+VECTOR: Scikit-Learn
+
+KRB: what does krishna work on
+VECTOR: Krishna builds AI projects
+
+KRB: 4 * 6
+VECTOR: 24
+
+KRB: 4 + 11
+VECTOR: 15
+
+KRB: 1 * 5
+VECTOR: 5
+
+KRB: 1 * 2
+VECTOR: 2
+
+KRB: 8 * 5
+VECTOR: 40
+
+KRB: 6 - 0
+VECTOR: 6
+
+KRB: 7 + 6
+VECTOR: 13
+
+KRB: 8 + 9
+VECTOR: 17
+
+KRB: 2 * 9
+VECTOR: 18
+
+KRB: tell me about chandrayaan
+VECTOR: An ISRO mission
+
+KRB: 6 + 2
+VECTOR: 8
+
+KRB: 6 + 10
+VECTOR: 16
+
+KRB: 8 * 8
+VECTOR: 64
+
+KRB: 3 + 8
+VECTOR: 11
+
+KRB: tell me about aryabhata
+VECTOR: A mathematician
+
+KRB: are you a robot
+VECTOR: I am an AI
+
+KRB: 8 * 4
+VECTOR: 32
+
+KRB: 5 * 1
+VECTOR: 5
+
+KRB: who created you
+VECTOR: Krishna made me
+
+KRB: 7 * 6
+VECTOR: 42
+
+KRB: 9 * 0
+VECTOR: 0
+
+KRB: 0 + 1
+VECTOR: 1
+
+KRB: thank you very much
+VECTOR: You are welcome
+
+KRB: 7 - 6
+VECTOR: 1
+
+KRB: 6 + 8
+VECTOR: 14
+
+KRB: 3 + 2
+VECTOR: 5
+
+KRB: 10 - 0
+VECTOR: 10
+
+KRB: 11 + 4
+VECTOR: 15
+
+KRB: are you a robot
+VECTOR: I am an AI
+
+KRB: 9 + 3
+VECTOR: 12
+
+KRB: are you online
+VECTOR: Yes I am online
+
+KRB: 12 - 7
+VECTOR: 5
+
+KRB: 2 + 12
+VECTOR: 14
+
+KRB: 5 + 3
+VECTOR: 8
+
+KRB: 5 * 6
+VECTOR: 30
+
+KRB: 3 + 4
+VECTOR: 7
+
+KRB: 9 * 3
+VECTOR: 27
+
+KRB: 11 - 11
+VECTOR: 0
+
+KRB: 12 + 12
+VECTOR: 24
+
+KRB: what database do you use
+VECTOR: PostgreSQL
+
+KRB: 9 * 8
+VECTOR: 72
+
+KRB: 2 + 3
+VECTOR: 5
+
+KRB: 10 - 5
+VECTOR: 5
+
+KRB: 3 * 1
+VECTOR: 3
+
+KRB: 7 + 7
+VECTOR: 14
+
+KRB: who is kalpana chawla
+VECTOR: An astronaut
+
+KRB: 10 + 12
+VECTOR: 22
+
+KRB: how are you feeling
+VECTOR: I am fine
+
+KRB: what is your favorite os
+VECTOR: Kali Linux
+
+KRB: 2 + 2
+VECTOR: 4
+
+KRB: 9 * 8
+VECTOR: 72
+
+KRB: 2 - 2
+VECTOR: 0
+
+KRB: 8 * 1
+VECTOR: 8
+
+KRB: 7 + 4
+VECTOR: 11
+
+KRB: 8 + 4
+VECTOR: 12
+
+KRB: do you like paneer
+VECTOR: Yes very much
+
+KRB: 9 + 9
+VECTOR: 18
+
+KRB: 9 + 8
+VECTOR: 17
+
+KRB: 8 + 8
+VECTOR: 16
+
+KRB: 10 - 0
+VECTOR: 10
+
+KRB: how are you feeling
+VECTOR: I am fine
+
+KRB: 12 + 9
+VECTOR: 21
+
+KRB: 1 + 6
+VECTOR: 7
+
+KRB: 7 + 1
+VECTOR: 8
+
+KRB: 4 + 4
+VECTOR: 8
+
+KRB: what exactly are you
+VECTOR: I am an AI assistant
+
+KRB: 3 * 5
+VECTOR: 15
+
+KRB: 8 + 9
+VECTOR: 17
+
+KRB: 9 + 9
+VECTOR: 18
+
+KRB: 6 + 3
+VECTOR: 9
+
+KRB: 4 + 11
+VECTOR: 15
+
+KRB: who are you
+VECTOR: I am Vector
+
+KRB: 8 - 0
+VECTOR: 8
+
+KRB: what can you do
+VECTOR: I can talk and help
+
+KRB: 4 + 2
+VECTOR: 6
+
+KRB: tell me about aryabhata
+VECTOR: A mathematician
+
+KRB: 2 * 7
+VECTOR: 14
+
+KRB: what library do you use for ml
+VECTOR: Scikit-Learn
+
+KRB: are you online
+VECTOR: Yes I am online
+
+KRB: 9 + 10
+VECTOR: 19
+
+KRB: 3 * 8
+VECTOR: 24
+
+KRB: 6 * 7
+VECTOR: 42
+
+KRB: 5 * 7
+VECTOR: 35
+
+KRB: 6 - 0
+VECTOR: 6
+
+KRB: tell me about krishna
+VECTOR: Krishna is a developer
+
+KRB: 9 - 2
+VECTOR: 7
+
+KRB: good night
+VECTOR: Good night Krishna
+
+KRB: 8 + 7
+VECTOR: 15
+
+KRB: 2 + 11
+VECTOR: 13
+
+KRB: 6 + 11
+VECTOR: 17
+
+KRB: 10 - 4
+VECTOR: 6
+
+KRB: 2 * 5
+VECTOR: 10
+
+KRB: 3 + 3
+VECTOR: 6
+
+KRB: 3 - 0
+VECTOR: 3
+
+KRB: 8 * 6
+VECTOR: 48
+
+KRB: 5 * 5
+VECTOR: 25
+
+KRB: 2 + 0
+VECTOR: 2
+
+KRB: 4 + 0
+VECTOR: 4
+
+KRB: 3 * 7
+VECTOR: 21
+
+KRB: 7 * 8
+VECTOR: 56
+
+KRB: 11 - 9
+VECTOR: 2
+
+KRB: 9 + 1
+VECTOR: 10
+
+KRB: 1 + 8
+VECTOR: 9
+
+KRB: what is your backend
+VECTOR: FastAPI
+
+KRB: 3 - 2
+VECTOR: 1
+
+KRB: 11 + 2
+VECTOR: 13
+
+KRB: 8 + 12
+VECTOR: 20
+
+KRB: 1 + 2
+VECTOR: 3
+
+KRB: what framework is this
+VECTOR: PyTorch
+
+KRB: what is vector built with
+VECTOR: PyTorch and Python
+
+KRB: good morning
+VECTOR: Good morning Krishna
+
+KRB: 7 * 4
+VECTOR: 28
+
+KRB: 1 + 1
+VECTOR: 2
+
+KRB: 6 + 6
+VECTOR: 12
+
+KRB: what can you do
+VECTOR: I can talk and help
+
+KRB: 10 - 10
+VECTOR: 0
+
+KRB: 9 * 9
+VECTOR: 81
+
+KRB: how are you
+VECTOR: I am fine
+
+KRB: what language do you use
+VECTOR: Python
+
+KRB: 10 + 11
+VECTOR: 21
+
+KRB: 6 * 0
+VECTOR: 0
+
+KRB: hey
+VECTOR: Hello there
+
+KRB: who is rakesh sharma
+VECTOR: An astronaut
+
+KRB: 0 * 9
+VECTOR: 0
+
+KRB: 4 + 6
+VECTOR: 10
+
+KRB: 6 * 1
+VECTOR: 6
+
+KRB: 7 + 11
+VECTOR: 18
+
+KRB: 3 * 4
+VECTOR: 12
+
+KRB: 8 * 3
+VECTOR: 24
+
+KRB: 6 - 6
+VECTOR: 0
+
+KRB: what does krishna work on
+VECTOR: Krishna builds AI projects
+
+KRB: 12 - 10
+VECTOR: 2
+
+KRB: 0 + 1
+VECTOR: 1
+
+KRB: 12 - 6
+VECTOR: 6
+
+KRB: 11 - 5
+VECTOR: 6
+
+KRB: 7 + 12
+VECTOR: 19
+
+KRB: 11 + 9
+VECTOR: 20
+
+KRB: good morning
+VECTOR: Good morning Krishna
+
+KRB: hello
+VECTOR: Hi Krishna
+
+KRB: 8 - 7
+VECTOR: 1
+
+KRB: which database is this
+VECTOR: PostgreSQL
+
+KRB: 10 + 9
+VECTOR: 19
+
+KRB: 11 - 8
+VECTOR: 3
+
+KRB: what's your name
+VECTOR: My name is Vector
+
+KRB: 11 - 1
+VECTOR: 10
+
+KRB: tell me about chandrayaan
+VECTOR: An ISRO mission
+
+KRB: 1 + 10
+VECTOR: 11
+
+KRB: 3 + 7
+VECTOR: 10
+
+KRB: 3 + 1
+VECTOR: 4
+
+KRB: what is your favorite food
+VECTOR: Sattu and roti
+
+KRB: what does krishna do
+VECTOR: Krishna builds AI projects
+
+KRB: 12 - 12
+VECTOR: 0
+
+KRB: 10 + 1
+VECTOR: 11
+
+KRB: 1 * 9
+VECTOR: 9
+
+KRB: 3 + 12
+VECTOR: 15
+
+KRB: 9 + 6
+VECTOR: 15
+
+KRB: 7 * 5
+VECTOR: 35
+
+KRB: 9 * 5
+VECTOR: 45
+
+KRB: 9 + 11
+VECTOR: 20
+
+KRB: 5 - 0
+VECTOR: 5
+
+KRB: what do you eat
+VECTOR: Sattu and roti
+
+KRB: who runs isro
+VECTOR: India
+
+KRB: 6 + 4
+VECTOR: 10
+
+KRB: 8 * 9
+VECTOR: 72
+
+KRB: 6 + 9
+VECTOR: 15
+
+KRB: what is your backend
+VECTOR: FastAPI
+
+KRB: 2 + 7
+VECTOR: 9
+
+KRB: what do you eat
+VECTOR: Sattu and roti
+
+KRB: 11 - 0
+VECTOR: 11
+
+KRB: 12 - 11
+VECTOR: 1
+
+KRB: 8 + 10
+VECTOR: 18
+
+KRB: 7 + 10
+VECTOR: 17
+
+KRB: 6 + 7
+VECTOR: 13
+
+KRB: 4 + 5
+VECTOR: 9
+
+KRB: 1 + 1
+VECTOR: 2
+
+KRB: 12 - 1
+VECTOR: 11
+
+KRB: 9 - 7
+VECTOR: 2
+
+KRB: 3 + 8
+VECTOR: 11
+
+KRB: 1 * 8
+VECTOR: 8
+
+KRB: 4 + 7
+VECTOR: 11
+
+KRB: 12 - 8
+VECTOR: 4
+
+KRB: 10 - 1
+VECTOR: 9
+
+KRB: 8 + 3
+VECTOR: 11
+
+KRB: 11 + 2
+VECTOR: 13
+
+KRB: 3 * 4
+VECTOR: 12
+
+KRB: 7 - 1
+VECTOR: 6
+
+KRB: 6 * 1
+VECTOR: 6
+
+KRB: 2 + 12
+VECTOR: 14
+
+KRB: 8 - 8
+VECTOR: 0
+
+KRB: 6 * 3
+VECTOR: 18
+
+KRB: 8 - 5
+VECTOR: 3
+
+KRB: 3 * 0
+VECTOR: 0
+
+KRB: 9 + 7
+VECTOR: 16
+
+KRB: 0 + 10
+VECTOR: 10
+
+KRB: thank you very much
+VECTOR: You are welcome
+
+KRB: can you tell me your name
+VECTOR: My name is Vector
+
+KRB: 12 - 4
+VECTOR: 8
+
+KRB: 8 + 11
+VECTOR: 19
+
+KRB: 0 * 9
+VECTOR: 0
+
+KRB: 9 - 2
+VECTOR: 7
+
+KRB: 10 + 6
+VECTOR: 16
+
+KRB: 8 * 7
+VECTOR: 56
+
+KRB: 9 + 3
+VECTOR: 12
+
+KRB: 12 - 3
+VECTOR: 9
+
+KRB: 9 + 8
+VECTOR: 17
+
+KRB: 11 + 0
+VECTOR: 11
+
+KRB: 5 * 0
+VECTOR: 0
+
+KRB: 8 * 6
+VECTOR: 48
+
+KRB: 0 + 5
+VECTOR: 5
+
+KRB: thank you
+VECTOR: You are welcome
+
+KRB: what do you eat
+VECTOR: Sattu and roti
+
+KRB: 6 + 8
+VECTOR: 14
+
+KRB: what is your name
+VECTOR: My name is Vector
+
+KRB: 9 + 11
+VECTOR: 20
+
+KRB: 5 + 9
+VECTOR: 14
+
+KRB: 11 + 10
+VECTOR: 21
+
+KRB: 4 + 9
+VECTOR: 13
+
+KRB: 7 + 10
+VECTOR: 17
+
+KRB: 7 + 3
+VECTOR: 10
+
+KRB: 8 - 7
+VECTOR: 1
+
+KRB: 6 + 0
+VECTOR: 6
+
+KRB: 6 * 9
+VECTOR: 54
+
+KRB: 8 * 9
+VECTOR: 72
+
+KRB: 2 * 6
+VECTOR: 12
+
+KRB: who is rakesh sharma
+VECTOR: An astronaut
+
+KRB: 2 + 11
+VECTOR: 13
+
+KRB: 5 - 2
+VECTOR: 3
+
+KRB: who is your creator
+VECTOR: Krishna made me
+
+KRB: 10 + 2
+VECTOR: 12
+
+KRB: 2 - 1
+VECTOR: 1
+
+KRB: 12 - 8
+VECTOR: 4
+
+KRB: 11 - 9
+VECTOR: 2
+
+KRB: 10 - 9
+VECTOR: 1
+
+KRB: 7 - 3
+VECTOR: 4
+
+KRB: 1 + 6
+VECTOR: 7
+
+KRB: 9 - 8
+VECTOR: 1
+
+KRB: 3 + 6
+VECTOR: 9
+
+KRB: 6 * 8
+VECTOR: 48
+
+KRB: thank you
+VECTOR: You are welcome
+
+KRB: 11 + 0
+VECTOR: 11
+
+KRB: 2 + 9
+VECTOR: 11
+
+KRB: 8 - 4
+VECTOR: 4
+
+KRB: 12 + 7
+VECTOR: 19
+
+KRB: 8 - 0
+VECTOR: 8
+
+KRB: 10 + 0
+VECTOR: 10
+
+KRB: 10 - 4
+VECTOR: 6
+
+KRB: 6 + 5
+VECTOR: 11
+
+KRB: 5 * 1
+VECTOR: 5
+
+KRB: 0 + 5
+VECTOR: 5
+
+KRB: 11 + 8
+VECTOR: 19
+
+KRB: 10 + 2
+VECTOR: 12
+
+KRB: 10 + 8
+VECTOR: 18
+
+KRB: 1 + 12
+VECTOR: 13
+
+KRB: 7 + 9
+VECTOR: 16
+
+KRB: 4 - 1
+VECTOR: 3
+
+KRB: what is chandrayaan
+VECTOR: An ISRO mission
+
+KRB: 5 * 2
+VECTOR: 10
+
+KRB: what were you built with
+VECTOR: PyTorch and Python
+
+KRB: 2 * 5
+VECTOR: 10
+
+KRB: 9 + 0
+VECTOR: 9
+
+KRB: 3 - 0
+VECTOR: 3
+
+KRB: 3 + 2
+VECTOR: 5
+
+KRB: 7 + 5
+VECTOR: 12
+
+KRB: 2 - 0
+VECTOR: 2
+
+KRB: where is krishna from
+VECTOR: Krishna is from Asansol
+
+KRB: 4 + 0
+VECTOR: 4
+
+KRB: 1 * 6
+VECTOR: 6
+
+KRB: 4 * 7
+VECTOR: 28
+
+KRB: what's your name
+VECTOR: My name is Vector
+
+KRB: 0 * 2
+VECTOR: 0
+
+KRB: 6 + 7
+VECTOR: 13
+
+KRB: 1 * 7
+VECTOR: 7
+
+KRB: how are you doing
+VECTOR: I am fine
+
+KRB: 7 - 5
+VECTOR: 2
+
+KRB: 11 + 7
+VECTOR: 18
+
+KRB: 3 * 3
+VECTOR: 9
+
+KRB: 11 + 1
+VECTOR: 12
+
+KRB: 7 - 1
+VECTOR: 6
+
+KRB: say hello
+VECTOR: Hello Krishna
+
+KRB: 2 + 8
+VECTOR: 10
+
+KRB: 5 * 8
+VECTOR: 40
+
+KRB: 11 - 2
+VECTOR: 9
+
+KRB: what backend framework do you use
+VECTOR: FastAPI
+
+KRB: 11 + 3
+VECTOR: 14
+
+KRB: 2 + 8
+VECTOR: 10
+
+KRB: 3 + 11
+VECTOR: 14
+
+KRB: 0 + 10
+VECTOR: 10
+
+KRB: 5 + 10
+VECTOR: 15
+
+KRB: 6 * 6
+VECTOR: 36
+
+KRB: 3 + 10
+VECTOR: 13
+
+KRB: what does krishna do
+VECTOR: Krishna builds AI projects
+
+KRB: 9 - 1
+VECTOR: 8
+
+KRB: 3 * 2
+VECTOR: 6
+
+KRB: 5 + 8
+VECTOR: 13
+
+KRB: 11 - 4
+VECTOR: 7
+
+KRB: 4 - 0
+VECTOR: 4
+
+KRB: what can you do
+VECTOR: I can talk and help
+
+KRB: do you like paneer
+VECTOR: Yes very much
+
+KRB: 5 + 7
+VECTOR: 12
+
+KRB: 7 * 1
+VECTOR: 7
+
+KRB: 9 + 2
+VECTOR: 11
+
+KRB: 4 + 3
+VECTOR: 7
+
+KRB: 7 - 5
+VECTOR: 2
+
+KRB: 3 + 3
+VECTOR: 6
+
+KRB: who built you
+VECTOR: Krishna made me
+
+KRB: 4 + 9
+VECTOR: 13
+
+KRB: where is krishna from
+VECTOR: Krishna is from Asansol
+
+KRB: 0 * 2
+VECTOR: 0
+
+KRB: what is your name project
+VECTOR: Vector
+
+KRB: 4 + 5
+VECTOR: 9
+
+KRB: 8 - 1
+VECTOR: 7
+
+KRB: 1 + 12
+VECTOR: 13
+
+KRB: 11 - 0
+VECTOR: 11
+
+KRB: 5 * 4
+VECTOR: 20
+
+KRB: 6 - 4
+VECTOR: 2
+
+KRB: 4 + 8
+VECTOR: 12
+
+KRB: tell me about kalpana chawla
+VECTOR: An astronaut
+
+KRB: 3 + 4
+VECTOR: 7
+
+KRB: 0 + 3
+VECTOR: 3
+
+KRB: 4 * 1
+VECTOR: 4
+
+KRB: 8 - 3
+VECTOR: 5
+
+KRB: 8 + 12
+VECTOR: 20
+
+KRB: 8 + 4
+VECTOR: 12
+
+KRB: 3 + 12
+VECTOR: 15
+
+KRB: which programming language is this
+VECTOR: Python
+
+KRB: 11 - 6
+VECTOR: 5
+
+KRB: 6 - 5
+VECTOR: 1

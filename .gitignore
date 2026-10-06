@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+train_log.txt
+train_state.json
