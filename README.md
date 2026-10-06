@@ -68,7 +68,6 @@ $d_k$ is the per-head dimension (scaling by $\sqrt{d_k}$ keeps dot-product magni
 **Multi-head attention** runs this in parallel across 8 heads, concatenates the results, and projects back to the embedding dimension.
 
 **Loss** — next-token cross-entropy:
-
 $$\mathcal{L} = -\frac{1}{T}\sum_{t=1}^{T} \log P(x_t \mid x_{<t})$$
 
 **Perplexity** ($e^{\mathcal{L}}$) at the current checkpoint (validation loss 0.78): **≈ 2.19** — on held-out data the model is, on average, about as uncertain as choosing between ~2 roughly-equally-likely tokens. For scale: a uniform random guess over the 144-token vocabulary would be perplexity 144.
