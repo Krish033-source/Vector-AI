@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Vector</title>
+<style>
+:root{--fg:#d4fdff;--dim:#5b7f84;color-scheme:dark}
+html,body{margin:0;height:100%;overflow:hidden;background:#000;color:var(--fg);font-family:Menlo,Consolas,"DejaVu Sans Mono","Courier New",monospace}
+canvas{position:fixed;inset:0;width:100%;height:100%;display:block;touch-action:none}
+#top{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:calc(10px + env(safe-area-inset-top,0px)) 12px 0;font-size:12px;color:var(--dim);pointer-events:none}
+#top div{display:flex;gap:6px;pointer-events:auto}
+button{background:#000a;border:1px solid #1e2428;color:var(--dim);border-radius:8px;padding:6px 10px;font:inherit;font-size:12px;cursor:pointer}
+#cap{position:fixed;left:0;right:0;bottom:calc(66px + env(safe-area-inset-bottom,0px));padding:0 6vw;text-align:center;pointer-events:none;text-shadow:0 0 6px #000,0 0 14px #000,0 0 22px #000}
+#u{color:var(--dim);font-size:13px;min-height:1.3em}
+#a{font-size:clamp(15px,2.4vw,22px);line-height:1.35;max-height:5.5em;overflow:hidden}
+#bar{position:fixed;left:0;right:0;bottom:0;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px))}
+#in{width:100%;box-sizing:border-box;background:#000a;border:1px solid #1e2428;color:var(--fg);padding:10px;border-radius:8px;font:inherit;outline:none;opacity:.55}
+#in:focus{opacity:1;border-color:#12a5b3}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="top"><span id="st">● ...</span><div><button id="auto">auto: on</button></div></div>
+<div id="cap"><div id="u">tap to speak</div><div id="a"></div></div>
+<div id="bar"><input id="in" placeholder="or type here and press Enter" autocomplete="off"></div>
+<script>
+(() => {
+  const CODE = `class Eye(Node):
+    def observe(self, frame):
+        edges = convolve(frame, KERNEL_SOBEL)
+        return self.model.infer(self.buffer)
+
+while (running) {
+  const packet = await socket.recv();
+  if (!verify(packet.sig, KEY)) drop(packet);
+  scheduler.tick(clock.now() - last);
+}
+
+fn route(req: &Request) -> Result<Reply, Err> {
+    match ctx.path() { "/watch" => stream(ctx), _ => Err(NotFound) }
+}
+
+SELECT id, ts, level FROM events WHERE level >= 'WARN';
+0x7f3a 0x00c1 0x9e22 0x04ff 0xb1d0 0x6a8e
+git commit -m "listen, remember, reply"
+// TODO: never stop watching
+assert(sensor.ready && link.up);`.split('\n');
+  const N = CODE.length, $ = id => document.getElementById(id);
+  const cv = $('c'), ctx = cv.getContext('2d');
+
+  const hex = h => [1, 3, 5].map(i => parseInt(h.substr(i, 2), 16));
+  const PAL = {
+    idle:   ['#1e2428', '#12a5b3', '#5ff3ff', '#d4fdff'],
+    listen: ['#1a2a22', '#12b37a', '#5fffb5', '#d4ffee'],
+    think:  ['#2a2418', '#b37a12', '#ffcf5f', '#fff3d4'],
+    speak:  ['#1e2428', '#12a5b3', '#8ff7ff', '#ffffff'],
+    err:    ['#2a1e1e', '#b31212', '#ff5f5f', '#ffd4d4']
+  };
+  for (const k in PAL) PAL[k] = PAL[k].map(hex);
+  const SPD = { idle: 45, listen: 25, think: 200, speak: 70, err: 15 };
+  let state = 'idle', offline = false, COLORS = [], cur = PAL.idle.map(a => a.slice());
+  let speed = 45, amp = 0, interimLen = 0;
+
+  let W, VH, fs, cw, lh, cols, rows, cx, cy, EA, EH, R;
+  const cache = new Map();
+  let scroll = 0, last = null, bl = 1, gx = 0, gy = 0, tx = 0, ty = 0, lastMove = -1e9, nextWander = 0;
+  const blink = { phase: 0, t: 0, next: 3000 };
+
+  function layout() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    W = innerWidth; VH = innerHeight;
+    cv.width = Math.round(W * dpr); cv.height = Math.round(VH * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    fs = Math.max(10, Math.min(16, Math.round(Math.min(W, VH) / 55)));
+    ctx.font = fs + 'px Menlo, Consolas, "DejaVu Sans Mono", "Courier New", monospace';
+    ctx.textBaseline = 'top';
+    cw = ctx.measureText('M').width; lh = Math.round(fs * 1.25);
+    cols = Math.ceil(W / cw) + 1; rows = Math.ceil(VH / lh) + 2;
+    cx = W / 2; cy = VH / 2 - VH * 0.06;
+    EA = W * 0.46; EH = Math.min(VH * 0.36, EA * 0.55); R = EH * 0.62;
+    cache.clear();
+  }
+  function rowText(i) {
+    let s = cache.get(i);
+    if (s === undefined) {
+      s = ''; for (let k = 0; s.length < cols; k++) s += CODE[(i + k * 17) % N] + '    ';
+      cache.set(i, s);
+      if (cache.size > rows * 4) cache.delete(cache.keys().next().value);
+    }
+    return s;
+  }
+
+  function update(dt, now) {
+    const key = offline && state === 'idle' ? 'err' : state;
+    const k = 1 - Math.exp(-dt / 200);
+    for (let i = 0; i < 4; i++) for (let j = 0; j < 3; j++) cur[i][j] += (PAL[key][i][j] - cur[i][j]) * k;
+    COLORS = cur.map(c => `rgb(${c[0] | 0},${c[1] | 0},${c[2] | 0})`);
+    speed += (SPD[key] - speed) * k;
+    scroll += speed * dt / 1000;
+    amp = Math.max(0, amp - dt / 350);
+
+    blink.t += dt;
+    if (blink.phase === 0) { bl = 1; if (blink.t >= blink.next) { blink.phase = 1; blink.t = 0; } }
+    else if (blink.phase === 1) { const p = Math.min(1, blink.t / 110); bl = 1 - p; if (p >= 1) { blink.phase = 2; blink.t = 0; } }
+    else {
+      const p = Math.min(1, blink.t / 170); bl = p;
+      if (p >= 1) { blink.phase = 0; blink.t = 0; blink.next = Math.random() < 0.2 ? 250 : 2500 + Math.random() * 3500; }
+    }
+    bl = Math.max(0.04, bl);
+
+    if (state === 'think') { tx = Math.sin(now / 260) * 0.9; ty = Math.sin(now / 510) * 0.15; }
+    else if (state === 'listen') { tx = 0; ty = 0; }
+    else if (state === 'speak') {
+      if (now >= nextWander) { tx = (Math.random() * 2 - 1) * 0.25; ty = (Math.random() * 2 - 1) * 0.2; nextWander = now + 700 + Math.random() * 900; }
+    } else if (now - lastMove > 3000 && now >= nextWander) {
+      tx = (Math.random() * 2 - 1) * 0.9; ty = (Math.random() * 2 - 1) * 0.7; nextWander = now + 1200 + Math.random() * 1800;
+    }
+    const kg = 1 - Math.exp(-dt / (state === 'think' ? 50 : 90));
+    gx += (tx - gx) * kg; gy += (ty - gy) * kg;
+  }
+
+  function draw(now) {
+    ctx.fillStyle = '#000'; ctx.fillRect(0, 0, W, VH);
+    const base = Math.floor(scroll / lh), off = scroll - base * lh;
+    const lid = EH * bl, ix = cx + gx * EA * 0.2, iy = cy + gy * EH * 0.3;
+    let p = 0.4 + 0.03 * Math.sin(now / 900);
+    if (state === 'listen') p = 0.5 + 0.04 * Math.sin(now / 220) + Math.min(0.1, interimLen / 400);
+    else if (state === 'think') p = 0.28 + 0.03 * Math.sin(now / 90);
+    else if (state === 'speak') p = 0.36 + 0.16 * amp;
+    const pr = R * p, R2 = R * R, pr2 = pr * pr, rim2 = R2 * 0.6;
+
+    for (let r = 0; r < rows; r++) {
+      const y = r * lh - off, yc = y + lh / 2, ey = 1 - Math.abs(yc - cy) / lid;
+      const text = rowText(base + r);
+      let run = 0, start = 0;
+      for (let c = 0; c <= cols; c++) {
+        let k = -1;
+        if (c < cols) {
+          const x = (c + 0.5) * cw; k = 0;
+          const dx = (x - cx) / EA;
+          if (ey > 0 && dx * dx <= ey) {
+            k = 1;
+            const ddx = x - ix, ddy = yc - iy, d2 = ddx * ddx + ddy * ddy;
+            if (d2 <= R2) k = d2 <= pr2 ? 4 : (d2 >= rim2 ? 3 : 2);
+          }
+        }
+        if (k !== run) {
+          if (c > start && run !== 4) { ctx.fillStyle = COLORS[run]; ctx.fillText(text.substring(start, c), start * cw, y); }
+          start = c; run = k;
+        }
+      }
+    }
+  }
+
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  let rec = null, auto = true, lang = 'en-IN', streamDone = true, aborter = null, pend = '', voice = null;
+  const setState = s => { state = s; };
+
+  function pickVoice() {
+    const v = speechSynthesis.getVoices();
+    voice = v.find(x => x.lang === 'en-IN') || v.find(x => x.lang.startsWith('en')) || null;
+  }
+  speechSynthesis.onvoiceschanged = pickVoice; pickVoice();
+
+  function listen() {
+    if (!SR) { $('u').textContent = 'Microphone is not supported in this browser. Use Chrome or Edge, or type instead.'; return; }
+    if (rec) return;
+    speechSynthesis.cancel();
+    const r = rec = new SR();
+    r.lang = lang; r.interimResults = true; r.continuous = false;
+    let fin = '';
+    r.onstart = () => { setState('listen'); interimLen = 0; };
+    r.onresult = e => {
+      let t = ''; for (const x of e.results) t += x[0].transcript;
+      interimLen = t.length; fin = t; $('u').textContent = t; $('a').textContent = '';
+    };
+    r.onerror = e => {
+      if (e.error === 'not-allowed' || e.error === 'service-not-allowed')
+        $('u').textContent = 'Microphone permission is blocked (allow it on an https page).';
+    };
+    r.onend = () => { rec = null; if (fin.trim()) send(fin.trim()); else setState('idle'); };
+    try { r.start(); } catch (e) { rec = null; }
+  }
+
+  const SENT = /^[^.!?\n]+?[.!?]+(?=\s)\s*/;
+  function pump(fin) {
+    let m;
+    while ((m = pend.match(SENT))) { say(m[0]); pend = pend.slice(m[0].length); }
+    if (fin) { if (pend.trim()) say(pend); pend = ''; }
+  }
+  function say(t) {
+    t = t.replace(/[*_`#]/g, '').trim(); if (!t) return;
+    const u = new SpeechSynthesisUtterance(t);
+    if (voice) { u.voice = voice; u.lang = voice.lang; } else u.lang = 'en-IN';
+    u.rate = 1.05;
+    u.onstart = () => setState('speak');
+    u.onboundary = () => { amp = 1; };
+    u.onend = u.onerror = finish;
+    speechSynthesis.speak(u);
+  }
+  function finish() {
+    if (!streamDone || speechSynthesis.speaking || speechSynthesis.pending || state === 'listen') return;
+    setState('idle');
+    if (auto) setTimeout(() => { if (state === 'idle' && !rec && streamDone) listen(); }, 350);
+  }
+
+  function interrupt() {
+    if (aborter) { aborter.abort(); aborter = null; }
+    streamDone = false; pend = ''; speechSynthesis.cancel();
+  }
+
+  async function send(text) {
+    interrupt();
+    setState('think'); $('u').textContent = text; $('a').textContent = '';
+    const ac = aborter = new AbortController();
+    let reply = '';
+    try {
+      const r = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text }), signal: ac.signal });
+      const rd = r.body.getReader(), dec = new TextDecoder(); let acc = '';
+      for (;;) {
+        const { done, value } = await rd.read(); if (done) break;
+        acc += dec.decode(value, { stream: true });
+        const ls = acc.split('\n'); acc = ls.pop();
+        for (const l of ls) {
+          if (!l) continue;
+          const m = JSON.parse(l);
+          if (m.t === 'tok') { reply += m.v; pend += m.v; $('a').textContent = reply; pump(false); }
+          else if (m.t === 'err') $('a').textContent = m.v;
+        }
+      }
+    } catch (e) { if (e.name !== 'AbortError') $('a').textContent = 'Lost connection to the server.'; }
+    if (aborter === ac) { aborter = null; pump(true); streamDone = true; finish(); }
+  }
+
+  cv.addEventListener('pointerdown', () => {
+    try { navigator.wakeLock && navigator.wakeLock.request('screen'); } catch (e) {}
+    if (state === 'listen' && rec) { rec.stop(); return; }
+    if (state === 'think' || state === 'speak') { interrupt(); setState('idle'); }
+    listen();
+  });
+  addEventListener('pointermove', e => {
+    if (state !== 'idle') return;
+    tx = Math.max(-1, Math.min(1, (e.clientX - cx) / (W / 2)));
+    ty = Math.max(-1, Math.min(1, (e.clientY - cy) / (VH / 2)));
+    lastMove = performance.now();
+  });
+  addEventListener('resize', layout);
+  $('in').addEventListener('keydown', e => {
+    if (e.key === 'Enter' && e.target.value.trim()) { const t = e.target.value.trim(); e.target.value = ''; if (rec) rec.abort(); send(t); }
+  });
+  $('auto').onclick = () => { auto = !auto; $('auto').textContent = 'auto: ' + (auto ? 'on' : 'off'); };
+
+  async function health() {
+    try { offline = !(await (await fetch('/api/health')).json()).llm; } catch (e) { offline = true; }
+    $('st').textContent = offline ? '● loading model / offline' : '● ready';
+  }
+  health(); setInterval(health, 5000);
+
+  function frame(now) {
+    if (last === null) last = now;
+    const dt = Math.min(50, now - last); last = now;
+    update(dt, now); draw(now);
+    requestAnimationFrame(frame);
+  }
+  layout(); requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
