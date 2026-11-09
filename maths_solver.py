@@ -30,7 +30,11 @@ def _normalize_spoken_maths(text):
     return " ".join(converted)
 
 
+LEAD_IN = re.compile(r"^\s*(what is|what's|whats|how much is|calculate|compute|solve)\s+", re.IGNORECASE)
+
+
 def try_solve_maths(text):
+    text = LEAD_IN.sub("", text)
     candidates = [text.strip(), _normalize_spoken_maths(text)]
 
     for candidate in candidates:
